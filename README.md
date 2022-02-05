@@ -24,8 +24,8 @@ tree.Find("ru")
 ```
 
 Implemented data structures
-*Tire (prefix tree)
-*Radix tree
+* Tire (prefix tree)
+* Radix tree
 
 To implement
-*DFA (deterministic finite automaton)
+* DFA (deterministic finite automaton)
