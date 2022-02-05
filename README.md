@@ -9,18 +9,18 @@ Install
 
 Useage
 ```go
-	tree := NewTree(&RadixNode{})
+tree := NewTree(&RadixNode{})
 
-	tree.Add("romane")
-	tree.Add("romanus")
-	tree.Add("romulus")
-	tree.Add("rubens")
-	tree.Add("ruber")
-	tree.Add("rubicon")
-	tree.Add("rubicundus")
+tree.Add("romane")
+tree.Add("romanus")
+tree.Add("romulus")
+tree.Add("rubens")
+tree.Add("ruber")
+tree.Add("rubicon")
+tree.Add("rubicundus")
 
-	tree.Fprint(os.Stdout) //Print tree to stdout
-    tree.Find("ru")    
+tree.Fprint(os.Stdout) //Print tree to stdout
+tree.Find("ru")    
 ```
 
 Implemented data structures
