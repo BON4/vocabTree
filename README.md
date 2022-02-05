@@ -4,7 +4,7 @@ Data structures optimized for searching words by tokens
 
 Install
 ```sh
-    go get github.com/BON4/vocabTree
+go get github.com/BON4/vocabTree
 ```
 
 Useage
