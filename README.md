@@ -20,7 +20,15 @@ tree.Add("rubicon")
 tree.Add("rubicundus")
 
 tree.Fprint(os.Stdout) //Print tree to stdout
-tree.Find("ru")    
+
+tree.FindMatch("ru", func(s string) {
+	fmt.Printf("Match: %s\n", s)
+}) /* Output:
+    Match: rubens
+    Match: ruber
+    Match: rubicon
+    Match: rubicundus
+   */
 ```
 
 Implemented data structures

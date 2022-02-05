@@ -49,7 +49,7 @@ func TestTireNode_FindMatch(t *testing.T) {
 	tree.Add("rubicundus")
 
 	tree.FindMatch("ru", func(s string) {
-		fmt.Println(s)
+		fmt.Printf("Match: %s\n", s)
 	})
 }
 

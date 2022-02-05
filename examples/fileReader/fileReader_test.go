@@ -31,8 +31,8 @@ func TestConstructTreeFromFile(t *testing.T) {
 	tree.Fprint(os.Stdout)
 
 	tree.FindMatch("L", func(s string) {
-		fmt.Println(s)
+		fmt.Printf("Match found: %s", s)
 	})
 
-	fmt.Println(tree.Height())
+	fmt.Printf("Height: %d\n", tree.Height())
 }
